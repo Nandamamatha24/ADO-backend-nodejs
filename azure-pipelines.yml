@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       displayName: 'Build Docker Image'
       inputs:
-        containerRegistry: 'project02'
+        containerRegistry: 'project01'
         repository: 'perseverance-project'
         command: 'build'
         Dockerfile: '**/Dockerfile'
